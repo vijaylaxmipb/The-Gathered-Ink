@@ -1,5 +1,6 @@
 import os
 from taskmanager import app
+from taskmanager.models import Category, Task
 
 
 @app.route('/')
